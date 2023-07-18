@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+body{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+/*Section Navbar*/
+.navbar{
+    background-color: #fff;   
+}
+.navbar .navbar-nav .nav-item a{
+    font-weight: 500;
+    color: #333333;
+}
+.navbar .navbar-nav .nav-item .btn-nav{
+    padding: 15px 30px;
+    background: #FFA500;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+}
+/*End*/
+
+/*Section Head*/
+.head-items{
+    background-color: #FFA500;
+    min-height: 85vh;
+}
+.head-items .row .col{
+    padding: 65px 0;
+}
+.head-items .row .col .text-head .title-head{
+    font-weight: 800;
+    color: #333333;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.head-items .row .col .text-head .items-title{
+    font-weight: 500;
+    color: #5c5c5c;
+}
+.head-items .row .col .items-btn-head{
+    margin-top: 40px;
+}
+.head-items .row .col .items-btn-head .items-btn{
+    padding: 15px 30px;
+    background-color: #333333;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.head-items .row .col .items-head-img img{
+    width: 90%;
+    margin-left: 50px;
+}
+/*End*/
+
+/*Section Content*/
+.content{
+    padding:120px 0 ;
+    background-color: #efefef3a;
+}
+.content .title-content .title-cont{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.content .title-content .text-cont{
+    font-weight: 500;
+}
+.content .cont-items-img img{
+    width: 100%;
+}
+/*End*/
+
+/*Section Kebs*/
+.kebs-items{
+    margin: 60px 0;
+    padding: 120px 0;
+}
+.kebs-items .container{
+    min-height: 90vh;
+    padding: 90px 40px;
+    background-color: #FFA500;
+    border-radius: 8px 80px 8px 8px;
+}
+.kebs-items .title-kebs{
+    font-weight: 700;
+    color: #333333;
+}
+.kebs-items .text-kebs{
+    font-weight: 500;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+.kebs-items .card{
+    margin: 30px 0;
+    background: transparent;
+    border: none;
+}
+.kebs-items .card .card-title{
+    font-weight: 700;
+    color: #333333;
+}
+.kebs-items .card .icons-card-items i{
+    background: #db9107;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+/*End*/
+
+/*Section Fitur*/
+.items-fit-element{
+    padding: 90px 0px;
+}
+.items-fit-element .row .col .items-element-ft-img img{
+    width: 100%;
+}
+.items-fit-element .row .col .text-items h3{
+    font-weight: 700;
+    font-size: 27px;
+    color: #333333;
+}
+.items-fit-element .row .col .text-items p{
+    font-weight: 500;
+}
+.items-fit-element .row .col .items-fitru-element .p-2 i{
+    color: #FFA500;
+}
+.items-fit-element .row .col .items-fitru-element li{
+    font-weight: 500;
+    color: #5c5c5c;
+}
+/*End*/
+
+/*Section Hemat*/
+.element-hmt{
+    padding:120px 0 ;
+    background-color: #efefef3a;
+}
+.element-hmt .row .col-6{
+    padding: 60px 0;
+}
+.element-hmt .row .col-6 h3{
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 40px;
+}
+.element-hmt .row .col-6 p{
+    font-weight: 500;
+    color: #5c5c5c;
+}
+.element-hmt .row .col-6 .items-btn-hmt{
+    margin: 60px 0px;
+}
+.element-hmt .row .col-6 .items-btn-hmt .btn-items{
+    padding: 15px 30px;
+    background: #FFA500;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.element-hmt .row .col .gab-element-hmt img{
+    width: 90%;
+}
+/*End*/
+/*Section Paket*/
+.element-pk-items{
+    margin: 60px;
+}
+.element-pk-items .container{
+    border: 2px solid #efefef3a;
+    padding: 90px 30px;
+}
+.element-pk-items .items-text-pk h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333333;
+}
+.element-pk-items .row{
+    margin: 20px 0;
+}
+.element-pk-items .card-items-element{
+    padding: 15px 30px;
+   S
+    align-items: center;
+    justify-content: center;
+}
+.element-pk-items .card-items-element-prem{
+    padding: 15px 30px;
+    background-color: #ffa6002a;
+    align-items: center;
+    border-radius: 8px 8px 80px 8px;
+    justify-content: center;
+}
+.element-pk-items .card-items-element-gold{
+    padding: 15px 30px;
+    background-color: #ffe60054;
+    align-items: center;
+    border-radius: 8px 8px 80px 8px;
+    justify-content: center;
+}
+.element-pk-items .card-items-element-gold .text-heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.element-pk-items .card-items-element-gold .card-title-rp h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding: 10px;
+    font-size: 30px;
+}
+.element-pk-items .card-items-element-prem .text-heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.element-pk-items .card-items-element-prem .card-title-rp h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding: 10px;
+    font-size: 30px;
+}
+.element-pk-items .card-items-element .text-heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+}
+.element-pk-items .items-gab-element img{
+    width: 100%;
+    height: 140px;
+}
+.element-pk-items .items-list li{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.element-pk-items .items-btn-pk{
+    margin: 20px 0;
+}
+.element-pk-items .items-btn-pk .btn-pk{
+    padding: 15px 30px;
+    background: #FFA500;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*End*/
+
+/*Section Faq*/
+.faq-element .text-heading-faq{
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+/*End*/
+
+/*Section Footer*/
+.items-footer .container{
+    padding: 60px 0px 10px 0px;
+}
+.items-footer .ft-heading-title h5{
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 17px;
+}
+.items-footer .text-items-ft p{
+    font-weight: 500;
+    color: #5c5c5c;
+}
+.items-footer .list-items-ft p a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.items-footer .row .col .text-items-cp{
+    font-weight: 500;
+    font-size: 15px;
+}
+.items-footer .row .col .float-end .d-flex i{
+    padding:10px;
+    margin: 5px;
+    color: #fff;
+    background-color: #FFA500;
+    border-radius: 50px;
+}
+/*End*/
+
+/*Whatshapp Fitur*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    padding: 7px 2px;
+}
+.bi{
+    padding: 20px 0;
+}
+.my-float{
+	margin-top:16px;
+}
+/*End*/
+
+/*Section Foooter*/
+.items-footer{
+    margin-top: 120px;
+    background-color: #efefef3a;
+    min-height: 60vh;
+}
+/*End*/
+
+/*Mobile Responsive Query*/
+  @media (max-width: 600px) {
+    .head-items .container .row {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .head-items .container{
+        padding: 0px 30px;
+    }
+    .head-items .row .col .items-head-img img{
+        width: 80%;
+    }
+    
+    /*Section Content*/
+    .content .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content .container{
+        padding: 0 30px;
+    }
+    /*End*/
+    
+    /*Section Fitur*/
+    .items-fit-element .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .items-fit-element .container{
+        padding: 0 30px;
+    }
+    .items-fit-element .row .col .items-element-ft-img img{
+        width: 80%;
+        padding: 20px 0;
+    }
+
+    /*Section Hemat*/
+    .element-hmt .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .element-hmt .container{
+        padding: 0 30px;
+    }
+    .element-hmt .row .col-6{
+        width: 100%;
+    }
+    /*End*/
+
+    /*Section Paket*/
+    .element-pk-items .container{
+        margin: 0;
+        padding: 10px;
+    }
+    .element-pk-items .container .items-text-pk h1{
+        font-size: 22px;
+        padding: 20px 0;
+    }
+    /*End*/
+    
+    /*Section Footer*/
+    .items-footer .container {
+        padding: 20px 30px;
+    }    
+    .items-footer .container .row{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .items-footer .container .row .col-5{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .items-footer .container .row .col{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .items-footer .container .row .col .float-end{
+        margin-top: -90px;
+    }
+    /*End*/
+}
